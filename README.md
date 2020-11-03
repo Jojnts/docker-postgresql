@@ -71,7 +71,7 @@ To push the Docker image to Quay, run the following command:
 
     make release
 
-## Continuous Integration
+## Continuous Integration 
 
 Images are built and pushed to Docker Hub on every deploy. Because Quay currently only supports build triggers where the Docker tag name exactly matches a GitHub branch/tag name, we must run the following script to synchronize all our remote branches after a merge to master:
 
